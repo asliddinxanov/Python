@@ -17,4 +17,5 @@ An image can be represented as a 2D function F(x,y) where x and y are spatial co
 There are various types of images:
 
 ・RGB image: It contains three layers of 2D image, these layers are Red, Green, and Blue channels.
+
 ・Grayscale image: These images contain shades of black and white and contain only a single channel.
