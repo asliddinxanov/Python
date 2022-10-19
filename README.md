@@ -20,3 +20,9 @@ An image can be represented as a 2D function F(x,y) where x and y are spatial co
 ・RGB image: It contains three layers of 2D image, these layers are Red, Green, and Blue channels.
 
 ・Grayscale image: These images contain shades of black and white and contain only a single channel.
+
+## Classic image processing algorithms
+### 1. Morphological Image Processing
+Morphological image processing tries to remove the imperfections from the binary images because binary regions produced by simple thresholding can be distorted by noise. It also helps in smoothing the image using opening and closing operations.
+
+Morphological operations can be extended to grayscale images. It consists of non-linear operations related to the structure of features of an image. It depends on the related ordering of pixels but on their numerical values. This technique analyzes an image using a small template known as structuring element which is placed on different possible locations in the image and is compared with the corresponding neighbourhood pixels. A structuring element is a small matrix with 0 and 1 values.
