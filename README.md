@@ -44,3 +44,9 @@ Let’s consider a sinusoid, it comprises of three things:
 ・Magnitude – related to contrast 
 ・Spatial frequency – related to brightness
 ・Phase – related to color information
+
+### 5. Wavelet Image Processing
+
+We saw a Fourier transform but it is only limited to the frequency. Wavelets take both time and frequency into the consideration. This transform is apt for non-stationary signals. 
+
+We know that edges are one of the important parts of the image, while applying the traditional filters it’s been noticed that noise gets removed but image gets blurry. The wavelet transform is designed in such a way that we get good frequency resolution for low frequency components.
