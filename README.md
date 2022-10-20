@@ -31,3 +31,16 @@ Morphological operations can be extended to grayscale images. It consists of non
 Gaussian blur which is also known as gaussian smoothing, is the result of blurring an image by a Gaussian function.
 
 It is used to reduce image noise and reduce details. The visual effect of this blurring technique is similar to looking at an image through the translucent screen. It is sometimes used in computer vision for image enhancement at different scales or as a data augmentation technique in deep learning.
+
+### 3. Fourier Transform in image processing
+Fourier transform breaks down an image into sine and cosine components. 
+
+It has multiple applications like image reconstruction, image compression, or image filtering. 
+
+Since we are talking about images, we will take discrete fourier transform into consideration.
+
+Let’s consider a sinusoid, it comprises of three things:
+
+・Magnitude – related to contrast 
+・Spatial frequency – related to brightness
+・Phase – related to color information
