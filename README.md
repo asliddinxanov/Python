@@ -45,6 +45,16 @@ Let’s consider a sinusoid, it comprises of three things:
 ・Spatial frequency – related to brightness
 ・Phase – related to color information
 
+### 4. Edge Detection in image processing
+
+Edge detection is an image processing technique for finding the boundaries of objects within images. It works by detecting discontinuities in brightness.
+
+This could be very beneficial in extracting useful information from the image because most of the shape information is enclosed in the edges. Classic edge detection methods work by detecting discontinuities in the brightness. 
+
+It can rapidly react if some noise is detected in the image while detecting the variations of grey levels. Edges are defined as the local maxima of the gradient. 
+
+The most common edge detection algorithm is sobel edge detection algorithm. Sobel detection operator is made up of 3*3 convolutional kernels. A simple kernel Gx and a 90 degree rotated kernel Gy. Separate measurements are made by applying both the kernel separately to the image.
+
 ### 5. Wavelet Image Processing
 
 We saw a Fourier transform but it is only limited to the frequency. Wavelets take both time and frequency into the consideration. This transform is apt for non-stationary signals. 
