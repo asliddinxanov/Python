@@ -1,2 +1,2 @@
 Run py file
-<img src="https://github.com/asliddinxanov/Python.Image-Processing/blob/main/Turtle-Rainbow%20spiral/Screenshot%202022-11-10%20at%2010.33.31.png" width="550px">
+<img src="https://github.com/asliddinxanov/Python.Image-Processing/blob/main/Turtle-Haappy%20birthday/Screenshot%202022-11-02%20at%2012.30.02.png" width="550px">
